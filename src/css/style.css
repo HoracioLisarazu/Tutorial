@@ -1,12 +1,62 @@
-h2{
-color: red;
+header{
+    width: 1600px;
+    height: 200px;
+    background-color: black;
 }
-
-li{
-    color: black;
+.menu{
+    font-size: 20px;
+        color: white;
+        font-weight: 600px;
+        font-family: 'Times New Roman', Times, serif;
 }
-
-p{
-    color: blue;
+h1.titulo{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+color: white;
+text-align: center;
 }
-
+h1.sub{
+    font-size: 35px;
+        color: red;
+        font-weight: 600px;
+        font-family: 'Times New Roman', Times, serif;
+}
+h2.subt{
+font-size: 20px;
+    color: maroon;
+    font-weight: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p.cont{
+    width: 800px;
+    font-size: 15px;
+        color: black;
+        font-weight: 600px;
+        font-family: 'Times New Roman', Times, serif;
+}
+.car{
+    text-align: left;
+}
+.car_image{
+    width: 500px;
+    height: 300px;
+}
+.car_image1{
+    width: 800px;
+    height: 500px;
+}
+h1.car_texto{
+    width: 500px;
+    height: 300%;
+    font-size: 30px;
+        color: black;
+        font-weight: 600px;
+        font-family: 'Times New Roman', Times, serif;   
+}
+.pie_pag{
+    width: 250px;
+    height: 400px;
+    padding: 25px;
+    background-color: white;
+    border: 5px solid black;
+}
