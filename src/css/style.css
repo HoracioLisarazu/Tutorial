@@ -7,18 +7,29 @@
 :root{
     
 }
+.cabecera{
+    position: fixed;
+}
 header{
     width: 1600px;
-    height: 450px;
+    height: 80px;
     background-color: black;
-    padding: 10px;
-    margin: 10px;
+    padding: 10px;   
 }
 .menu{
-    font-size: 20px;
+    width: 1600px;
+        height: 30px;
+        background-color: brown;
+
+}
+.menu a{
+        font-size: 20px;
         color: white;
         font-weight: 600px;
-        font-family: 'Times New Roman', Times, serif;
+            padding: 60px;
+            text-decoration: none;
+            text-align: center;
+
 }
 h1.titulo{
     font-size: 40px;
@@ -54,7 +65,7 @@ p.cont{
     width: 500px;
     height: 300px;
     padding: 10px;
-    margin: 10px;
+    margin: 150px 10px 10px 10px;
 }
 .car_image1{
     width: 700px;
@@ -79,6 +90,7 @@ h1.car_texto{
     font-size: 30px;
     background-color: white;
     border: 5px solid black;
+    text-transform: lowercase;
 }
 button{
     font-size: 15px;
