@@ -27,6 +27,9 @@ header{
     width: 100%;
     z-index: 100;
 }
+body{
+    background-color: white;
+}
 .menu{
     display: flex;
     margin-right: 10px;
@@ -40,18 +43,17 @@ header{
     font-size: 30px;
 }
 .car_image{
-    width: 800px;
+    width: 1000px;
     height: 500px;
-    padding: 50px 50px 20px 20px;
-    margin: 70px 0px 0px 0px;
+    margin: 100px 100px 100px 100px;
 }
 .car{
-    text-align: left;
+    position: sticky;
+    text-align: right;
     float: right;
     background-position: 100% 0%;
     margin: 100px 0px 0px 0px;
 }
-
 .car_image1{ 
     width: 800px;
     height: 500px;
@@ -76,34 +78,33 @@ h1.titulo{
     padding: 20px 0px 0px 0px;
 }
 h1.sub{
-    font-size: 45px;
+    font-size: 70px;
     color: red;
     font-weight: 600px;
     padding: 10px;
-    margin: 10px;
+    margin: 50px 0px 0px 100px;
 }
 h2.subt{
-font-size: 40px;
+font-size: 50px;
     color: midnightblue;
     font-weight: 600px;
     padding: 10px;
-    margin: 10px;
+    margin: 50px 0px 0px 100px;
 }
 p.cont{
-    font-size: 30px;
+    font-size: 40px;
     color: black;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 100px 50px 100px;
     inline-size: 1200px;
     line-height: 200%;
- 
 }
 .pie_pag{
     width: 800px;
     height: 700px;
-    padding: 45px 40px 40px 40px;
-    margin: 30px 30px 30px 30px;
-    font-size: 30px;
+    padding: 40px 40px 40px 40px;
+    margin: 80px 30px 30px 150px;
+    font-size: 40px;
     background-color: white;
 }
 .name{
@@ -116,17 +117,17 @@ h1{
 }
 input{
     width: 600px;
-    height: 30px;
+    height: 60px;
     margin: 0px 0px 30px 0px;
     padding: 8px;
-    font-size: 20px;
+    font-size: 30px;
 }
 textarea{
     width: 600px;
     height: 200px;
     margin: 0px 0px 30px 0px;
     padding: 8px;
-    font-size: 20px;
+    font-size: 30px;
 }
 li{
     list-style: none;
@@ -156,4 +157,29 @@ button:active {
     font-size: 20px;
     width: 300px;
     height: 50px;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+    margin: 200px 0px 0px 0px;
+    background-color: firebrick;
+    color: white;
+}
+.palanca{
+     width: 1000px;
+      height: 700px;
+      padding: 50px 50px;
+      margin: 100px 100px 100px 100px;
+}
+.encendido{
+     width: 1000px;
+     height: 700px;
+     padding: 50px 50px;
+     margin: 100px 100px 100px 100px;
+}
+.marcha{
+    width: 1000px;
+    height: 700px;
+    padding: 50px 50px;
+    margin: 100px 100px 100px 100px;
 }
